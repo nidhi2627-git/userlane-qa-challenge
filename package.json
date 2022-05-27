@@ -1,0 +1,20 @@
+{
+  "name": "userlane-qa-challenge",
+  "version": "1.0.0",
+  "description": "Userlane QA Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-log-to-output": "^1.1.2"
+  }
+}
