@@ -1,14 +1,14 @@
 export class Careers {
-    navigate(){
-        cy.visit('https://www.userlane.com/careers/');
+    navigate(url){
+        cy.visit(url);
         cy.wait(3000);
     }
 
-    checkForOpenQAPositions(){
+    checkForOpenJobPositions(jobCategory, jobTitle){
         cy.get('[title="Open Positions"]').click();
         cy.wait(3000);
 
-        cy.get('*[class*="Engineering"]').contains('Test').then(($jobel) => {
+        cy.get('*[class*="' + jobCategory + '"]').contains(jobTitle).then(($jobel) => {
           cy.wrap($jobel).should('be.visible');
           cy.wrap($jobel).should($a => {
             expect($a.attr('target'), 'target').to.equal('_blank');

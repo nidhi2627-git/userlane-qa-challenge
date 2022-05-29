@@ -1,4 +1,4 @@
-export class QAJobApply {
+export class JobApply {
 
     applyForJob(testData){
       cy.get('a:contains(Apply for this job)').first().click();

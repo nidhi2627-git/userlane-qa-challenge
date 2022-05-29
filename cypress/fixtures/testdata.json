@@ -1,4 +1,5 @@
 {
+  "careerURL": "https://www.userlane.com/careers/",
   "username": "Nidhi Dutta",
   "useremail": "nidhi2627@gmail.com",
   "phone": "+919810841201",
@@ -8,5 +9,7 @@
   "placeOfLiving": "Yes",
   "salaryExpectation": "65000-70000 EUR gross per annum",
   "technicalSkills": "Yes",
-  "resume": "Nidhi Dutta.pdf"
+  "resume": "Nidhi Dutta.pdf",
+  "jobCategory": "Engineering",
+  "jobTitle": "Test"
 }
